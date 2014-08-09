@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<title>webgl detect</title>
+
+</head>
+<body>
+<h2>webgl detect Beta<br/>WORK IN PROGRESS!!</h2>
+
+<pre><u>
+pro's and cons/features
+</u>
+as jquery as possible (im novice)
+only switches between singular 2d and 3d page for the moment
+flags for showing get webgl and troublingshooting dialogs
+cookie for remembering 2d/3d
+</pre>
+<br/>
+<a href="webgl_detect.xhtml">DEMO HERE</a>
+<br/>
+<a href="webgl_detect.zip">webgl_detect download</a>
+
+</body>
+</html>

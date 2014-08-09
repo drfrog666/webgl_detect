@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://x3dom.org/x3dom/example/x3dom.css"></link>
+<script type="text/javascript" src = "http://x3dom.org/x3dom/example/x3dom.js"></script>
+
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js" type="text/javascript"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+
+<script>
+//global variables
+var webgl_page = "3d.xhtml";
+var twod_page = "webgl_detect.xhtml";
+var cookie_name ="remember_webgl";;
+var get_webgl = 1;
+var troubleshoot_webgl = 1;
+
+</script>
+<script src="js/webgl_detect.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<h2>sample xhtml 3d page</h2>
+
+<X3D width="200px" height="200px" showLog='false' showStat="false">
+<Scene DEF='scene' >
+<Transform >
+<Shape >
+<Cylinder ></Cylinder>        
+<Appearance><Material diffuseColor='0 1 0' ></Material></Appearance>
+</Shape>
+</Transform>
+</Scene>
+</X3D>
+
+</body>
+</html>
